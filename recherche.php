@@ -6,7 +6,7 @@
         $rech = $_POST["recherche"];
         $req = mysqli_query($link,"SELECT * FROM `utilisateur` WHERE `id` = $rech");
         if($req){
-            echo"ce numero existe ";
+            echo"ce numero existe evidemmemnt";
         }else{
             echo"ce numero n'existe pas";
         }
