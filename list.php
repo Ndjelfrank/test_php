@@ -180,8 +180,6 @@
     <body>
         <header class="">
             <form action="recherche.php" method="post" class="btn-search">
-                <input type="hidden" name="id" value =" <?php echo $res["id"] ;  ?>
-                <input type="hidden" name="nom" value =" <?php echo $res["nom"] ;  ?>
                     <input type="search" name="recherche" id="recherche">
                     <input type="submit" value="Rechercher">
                 
